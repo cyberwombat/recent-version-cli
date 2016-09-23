@@ -1,0 +1,33 @@
+{
+	"name": "recent-version-cli",
+	"version": "1.0.0",
+	"description": "Get the most recently published version of a package, from the command line.",
+	"preferGlobal": true,
+	"bin": {
+		"recent-version": "cli.js"
+	},
+	"dependencies": {
+		"meow": "^3.7.0",
+		"recent-version": "^1.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Okahyphen/recent-version-cli.git"
+	},
+	"keywords": [
+		"recent",
+		"version",
+		"package",
+		"semver",
+		"cli"
+	],
+	"author": "Colin 'Oka' Hall-Coates <yo@oka.io>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Okahyphen/recent-version-cli/issues"
+	},
+	"homepage": "https://github.com/Okahyphen/recent-version-cli#readme",
+	"files": [
+		"cli.js"
+	]
+}
