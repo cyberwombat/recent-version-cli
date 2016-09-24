@@ -21,5 +21,5 @@ if (!name) {
 }
 
 recent(name)
-	.then(version => console.log(version))
+	.then(version => console.log(`${name}@${version}`))
 	.catch(error => console.error(error.message));
